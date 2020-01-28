@@ -1,5 +1,5 @@
 ASDL Notional 300pax
- $OPTION   
+ $OPTION
   MPRINT= 1,
   IOPT= 1,
   IANAL= 3,
@@ -8,10 +8,10 @@ ASDL Notional 300pax
   ILAND= 0,				! Set to 1 to turn on detailed landing (requires $TOLIN)
   $END
 
- $WTIN   
+ $WTIN
   MYWTS= 0,
   VMMO= 0.9,
-  DIH= 6.0,                          	! Wing dihedral angle
+  DIH= 7.0,                          	! Wing dihedral angle
   NETAW=3,
   ETAW= 0.0, 0.5, 1.0, 			! Wing section break locations divided by halfspan
   XL= 206.5,				! Fuselage Length
@@ -47,8 +47,8 @@ ASDL Notional 300pax
   FRLGN= 1.05,				! Nose gear weight multiplier
   FRLGM= 1.05,				! Main gear weight multiplier
   FRNA = 0.0,				! Nacelle weight multiplier
-  WTHR= 0.0,				
-  WPMSC= 0.0,				
+  WTHR= 0.0,
+  WPMSC= 0.0,
   WFSYS = 1.05,				! Fuel system weight multiplier
   FRSC=1.05,				! Surface controls weight multiplier
   WIN=1.05,				! Instruments weight multiplier
@@ -61,12 +61,12 @@ ASDL Notional 300pax
   WCON=1.0,				! Cargo container weight multiplier
   FULWMX=23.,				! Wing fuel capacity muliplier (23 is default)
   FULFMX = 57544.5,			! Additional fuel capacity in fuselage
-  $END	
+  $END
 
- $CONFIN   
+ $CONFIN
   DESRNG= 8000.0,			! Design range (nm)
   OFG= 1.,
-  OFF= 0.,  
+  OFF= 0.,
   GW= 766000.0,				! Gross weight guess
   AR= 8.5,				! Wing aspect ratio
   TR= 0.3,  				! Wing taper ratio
@@ -79,15 +79,15 @@ ASDL Notional 300pax
   $END
 
  $AERIN
-  ITPAER= 1,  
+  ITPAER= 1,
   CAM= 1.75,
   AITEK= 2.00,
-  E= 1.0, 
+  E= 1.0,
   CLTOM= 2.39,				! CLmax in takeoff
   CLLDM= 3.09,				! CLmax in landing
   $END
 
- $ENGDIN   
+ $ENGDIN
   IGENEN= -1,
   EIFILE= 'GE90-94B.deck',  		! Engine deck file name
   IDLE= 1,
@@ -147,7 +147,7 @@ END
 !$RERUN				! Currently commented out, but rerun will run an alternate mission
 !  DESRNG = 2800.,		! with the sized empty weight. In this case it is setup for the
 !  MYWTS = 1,			! 300k lbs max payload to fly 2800 nm. You will need to adjust
-!  NOPRO = 0,			! the range such that the alternate mission TOGW is less than or 
+!  NOPRO = 0,			! the range such that the alternate mission TOGW is less than or
 !  PAYLOD = 300000, 		! equal to the sized vehicle TOGW.
 !  FUEMAX = 0,
 !  RAMPWT = 0,
