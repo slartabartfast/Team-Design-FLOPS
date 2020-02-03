@@ -11,18 +11,18 @@ ASDL Notional 300pax
  $WTIN
   MYWTS= 0,
   VMMO= 0.9,
-  DIH= 7.0,                          	! Wing dihedral angle
+  DIH= 7.0,                   !LD       	! Wing dihedral angle
   NETAW=3,
   ETAW= 0.0, 0.5, 1.0, 			! Wing section break locations divided by halfspan
-  XL= 239.75,				! Fuselage Length
+  XL= 206.5,				!LD ! Fuselage Length
   TOC= 0.12, 0.12, 0.12,		! Thickness to chord at each wing section
-  WF= 20.333,				! Fuselage width
+  WF= 20.333,				!LD ! Fuselage width
   CHD= 0.36199, 0.23529, 0.10860,	! Chord divided by halfspan at each wing section
-  DF= 20.333,  				! Fuselage height
-  SHT= 1069.85,				! Horizontal tail area
-  SWPHT= 37.5,				! Horizontal tail sweep at c/4
-  ARHT= 4.5,				! Horizontal tail aspect ratio
-  TRHT= 0.35,				! Horizontal tail taper ratio
+  DF= 20.333,  				!LD ! Fuselage height
+  SHT= 1069.85,				!LD ! Horizontal tail area
+  SWPHT= 37.5,				!LD ! Horizontal tail sweep at c/4
+  ARHT= 4.5,				!LD ! Horizontal tail aspect ratio
+  TRHT= 0.35,				!LD ! Horizontal tail taper ratio
   TCHT= 0.104,  			! Horizontal tail thickness to chord
   SVT=683.35,				! Vertical tail area
   SWPVT= 40.0,				! Vertical tail sweep at c/4
