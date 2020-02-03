@@ -67,7 +67,7 @@ ASDL Notional 300pax
   DESRNG= 8000.0,			! Design range (nm)
   OFG= 1.,
   OFF= 0.,
-  GW= 766000.0,				! Gross weight guess
+  GW= 545000.0,		!LD		! Gross weight guess
   AR= 8.5,				! Wing aspect ratio
   TR= 0.3,  				! Wing taper ratio
   SWEEP= 35.0,				! Wing c/4 sweep
