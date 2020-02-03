@@ -27,9 +27,9 @@ ASDL Notional 300pax
   SVT=683.35,				!LD ! Vertical tail area
   SWPVT= 40.0,				!LD ! Vertical tail sweep at c/4
   ARVT= 1.80,				!LD ! Vertical tail aspect ratio
-  TRVT= 0.33,				! Vertical tail taper ratio
+  TRVT= 0.33,				!LD ! Vertical tail taper ratio
   TCVT= 0.107,   			! Vertical tail thickness to chord
-  NEW= 2,				! Number of wing mounted engines
+  NEW= 2,				!LD ! Number of wing mounted engines
   THRSO= 94000.,			! Thrust of each engine (overrided by TWR)
   WENG= 22083.0,			! Weight of each engine
   XNAC= 17.4,				! Engine nacelle length
@@ -59,7 +59,7 @@ ASDL Notional 300pax
   WAC=1.05,				! Air conditioning weight multiplier
   WAI=1.05,				! Anti-ice weight multiplier
   WCON=1.0,				! Cargo container weight multiplier
-  FULWMX=23.,				! Wing fuel capacity muliplier (23 is default)
+  FULWMX=23.,				! Wing fuel capacity multiplier (23 is default)
   FULFMX = 57544.5,			! Additional fuel capacity in fuselage
   $END
 
