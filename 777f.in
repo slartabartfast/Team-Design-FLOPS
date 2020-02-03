@@ -13,7 +13,7 @@ ASDL Notional 300pax
   VMMO= 0.9,
   DIH= 7.0,                   !LD       	! Wing dihedral angle
   NETAW=3,
-  ETAW= 0.0, 0.5, 1.0, 			! Wing section break locations divided by halfspan
+  ETAW= 0.0, 0.22, 1.0, 			!AS ! Wing section break locations divided by halfspan
   XL= 206.5,				!LD ! Fuselage Length
   TOC= 0.12, 0.12, 0.12,		! Thickness to chord at each wing section
   WF= 20.333,				!LD ! Fuselage width
@@ -30,15 +30,15 @@ ASDL Notional 300pax
   TRVT= 0.33,				!LD ! Vertical tail taper ratio
   TCVT= 0.107,   			! Vertical tail thickness to chord
   NEW= 2,				!LD ! Number of wing mounted engines
-  THRSO= 94000.,			! Thrust of each engine (overrided by TWR)
-  WENG= 22083.0,			! Weight of each engine
+  THRSO= 90580.,			!AS ! Thrust of each engine (overrided by TWR)
+  WENG= 17400,			!AS ! Weight of each engine
   XNAC= 23.95,				!AS ! Engine nacelle length
   DNAC= 10.5,  			!AS ! Engine nacelle diameter
   NPF= 0,
   NPT= 0,
   NFLCR= 10,   				!AS ! Number of flight crew
   MLDWT= 1,
-  CARGOF= 127000.0,			! Weight of cargo carried
+  CARGOF= 127000.0,			! Weight of cargo carried  
   CARGF= 0.0,				! Fuselage floor factor for military transport (set to 1 for mil)
   FRWI= 1.05,				! Wing weight multiplier
   FRHT= 1.05,				! Horizontal tail weight multiplier
@@ -74,7 +74,7 @@ ASDL Notional 300pax
   TCA= 0.109,				! Wing average thickness to chord
   VCMN= 0.84,				!AS cruising ! Design mach (usually maximum)
   CH= 35000.0,  			!AS ! Design cruise altitude
-  TWR= 0.25, 				! Thrust to weight ratio
+  TWR= 0.2878, 				!AS not ER! Thrust to weight ratio
   SW= 4604.8,				!AS ! Wing area (can replace with WSR, which is wing loading)
   $END
 
