@@ -32,11 +32,11 @@ ASDL Notional 300pax
   NEW= 2,				!LD ! Number of wing mounted engines
   THRSO= 94000.,			! Thrust of each engine (overrided by TWR)
   WENG= 22083.0,			! Weight of each engine
-  XNAC= 17.4,				! Engine nacelle length
-  DNAC= 12.608,  			! Engine nacelle diameter
+  XNAC= 23.95,				!AS ! Engine nacelle length
+  DNAC= 10.5,  			!AS ! Engine nacelle diameter
   NPF= 0,
   NPT= 0,
-  NFLCR= 2,   				! Number of flight crew
+  NFLCR= 10,   				!AS ! Number of flight crew
   MLDWT= 1,
   CARGOF= 127000.0,			! Weight of cargo carried
   CARGF= 0.0,				! Fuselage floor factor for military transport (set to 1 for mil)
@@ -68,14 +68,14 @@ ASDL Notional 300pax
   OFG= 1.,
   OFF= 0.,
   GW= 545000.0,		!LD		! Gross weight guess
-  AR= 8.67,			!AS 	! Wing aspect ratio
+  AR= 8.67,			!AS ! Wing aspect ratio
   TR= 0.19,  				!AS ! Wing taper ratio
   SWEEP= 31.0,				!AS ! Wing c/4 sweep
   TCA= 0.109,				! Wing average thickness to chord
-  VCMN= 0.84,				! Design mach (usually maximum)
-  CH= 41000.0,  			! Design altitude
+  VCMN= 0.84,				!AS cruising ! Design mach (usually maximum)
+  CH= 35000.0,  			!AS ! Design cruise altitude
   TWR= 0.25, 				! Thrust to weight ratio
-  SW= 5175.34,				! Wing area (can replace with WSR, which is wing loading)
+  SW= 4604.8,				!AS ! Wing area (can replace with WSR, which is wing loading)
   $END
 
  $AERIN
