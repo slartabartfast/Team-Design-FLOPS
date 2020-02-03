@@ -24,9 +24,9 @@ ASDL Notional 300pax
   ARHT= 4.5,				!LD ! Horizontal tail aspect ratio
   TRHT= 0.35,				!LD ! Horizontal tail taper ratio
   TCHT= 0.104,  			! Horizontal tail thickness to chord
-  SVT=683.35,				! Vertical tail area
-  SWPVT= 40.0,				! Vertical tail sweep at c/4
-  ARVT= 1.80,				! Vertical tail aspect ratio
+  SVT=683.35,				!LD ! Vertical tail area
+  SWPVT= 40.0,				!LD ! Vertical tail sweep at c/4
+  ARVT= 1.80,				!LD ! Vertical tail aspect ratio
   TRVT= 0.33,				! Vertical tail taper ratio
   TCVT= 0.107,   			! Vertical tail thickness to chord
   NEW= 2,				! Number of wing mounted engines
