@@ -64,13 +64,13 @@ ASDL Notional 300pax
   $END
 
  $CONFIN
-  DESRNG= 8000.0,			! Design range (nm)
+  DESRNG= 3500.0,			!AS ! Design range (nm)
   OFG= 1.,
   OFF= 0.,
   GW= 545000.0,		!LD		! Gross weight guess
-  AR= 8.5,				! Wing aspect ratio
-  TR= 0.3,  				! Wing taper ratio
-  SWEEP= 35.0,				! Wing c/4 sweep
+  AR= 8.67,			!AS 	! Wing aspect ratio
+  TR= 0.19,  				!AS ! Wing taper ratio
+  SWEEP= 31.0,				!AS ! Wing c/4 sweep
   TCA= 0.109,				! Wing average thickness to chord
   VCMN= 0.84,				! Design mach (usually maximum)
   CH= 41000.0,  			! Design altitude
