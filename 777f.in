@@ -64,11 +64,11 @@ ASDL Notional 300pax
   WAI=1.05,				! Anti-ice weight multiplier
   WCON=1.0,				! Cargo container weight multiplier
   FULWMX=23.,				! Wing fuel capacity multiplier (23 is default)
-  FULFMX = 57544.5,			! Additional fuel capacity in fuselage
+  FULFMX = 0,			!ER  ! Additional fuel capacity in fuselage
   $END
 
  $CONFIN
-  DESRNG= 3500.0,			!AS ! Design range (nm)
+  DESRNG= 3300.0,			!ER  !AS ! Design range (nm)
   OFG= 1.,
   OFF= 0.,
   GW= 545000.0,		!LD		! Gross weight guess
