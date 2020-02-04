@@ -34,9 +34,11 @@ ASDL Notional 300pax
   WENG= 17400,			!AS ! Weight of each engine
   XNAC= 23.95,				!AS ! Engine nacelle length
   DNAC= 10.5,  			!AS ! Engine nacelle diameter
-  NPF= 0,
-  NPT= 0,
-  NFLCR= 10,   				!AS ! Number of flight crew
+  NPF= 30,       !ER  ! Number of 1st class pax
+  NPB= 0,        !ER  ! Number of business class pax
+  NPT= 370,      !ER  ! Number of economy class pax
+  NSTU= 8,       !ER  ! Number of flight attendants
+  NFLCR= 2,   			!ER !AS ! Number of flight crew
   MLDWT= 1,
   CARGOF= 0.0,			!ER ! Weight of cargo carried  
   WPPASS= 200,  !ER ! Weight per passenger
