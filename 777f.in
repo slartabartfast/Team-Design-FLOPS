@@ -38,7 +38,9 @@ ASDL Notional 300pax
   NPT= 0,
   NFLCR= 10,   				!AS ! Number of flight crew
   MLDWT= 1,
-  CARGOF= 127000.0,			! Weight of cargo carried  
+  CARGOF= 0.0,			!ER ! Weight of cargo carried  
+  WPPASS= 200,  !ER ! Weight per passenger
+  BPP= 25,      !ER ! Baggage weight per passenger
   CARGF= 0.0,				! Fuselage floor factor for military transport (set to 1 for mil)
   FRWI= 1.05,				! Wing weight multiplier
   FRHT= 1.05,				! Horizontal tail weight multiplier
