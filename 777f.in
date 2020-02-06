@@ -42,7 +42,7 @@ ASDL Notional 300pax
   MLDWT= 1,
   CARGOF= 0.0,			!ER ! Weight of cargo carried
   WPPASS= 200,  !ER ! Weight per passenger
-  BPP= 30,      !ER ! Baggage weight per passenger
+  BPP= 50,      !ER ! Baggage weight per passenger
   CARGF= 0.0,				! Fuselage floor factor for military transport (set to 1 for mil)
   FRWI= 1.05,				! Wing weight multiplier
   FRHT= 1.05,				! Horizontal tail weight multiplier
