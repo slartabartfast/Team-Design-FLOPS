@@ -97,7 +97,6 @@ ASDL Notional 300pax
   IDLE= 1,
   MAXCR= 1,
   NOX= 1,
-  BOOST= .85,
   $END
 
  $MISSIN
