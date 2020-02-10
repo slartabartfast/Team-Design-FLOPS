@@ -68,7 +68,7 @@ ASDL Notional 300pax
   $END
 
  $CONFIN
-  DESRNG= 3300.0,			!ER  !AS ! Design range (nm)
+  DESRNG= 6480,			!ER  !AS ! Design range (nm)
   OFG= 1.,
   OFF= 0.,
   GW= 545000.0,		!LD		! Gross weight guess
