@@ -30,7 +30,7 @@ ASDL Notional 300pax
   TRVT= 0.33,				!LD ! Vertical tail taper ratio
   TCVT= 0.107,   			! Vertical tail thickness to chord
   NEW= 2,				!LD ! Number of wing mounted engines
-  THRSO= 76400.,			!ER !AS ! Thrust of each engine (overrided by TWR)
+  THRSO= 94000.,			!ER !AS ! Thrust of each engine (overrided by TWR)
   WENG= 17400,			!AS ! Weight of each engine
   XNAC= 23.95,				!AS ! Engine nacelle length
   DNAC= 10.5,  			!AS ! Engine nacelle diameter
@@ -68,10 +68,10 @@ ASDL Notional 300pax
   $END
 
  $CONFIN
-  DESRNG= 6480,			!ER  !AS ! Design range (nm)
+  DESRNG= 8250,			!ER  !AS ! Design range (nm)
   OFG= 1.,
   OFF= 0.,
-  GW= 545000.0,		!LD		! Gross weight guess
+  GW= 662000.0,		!LD		! Gross weight guess
   AR= 8.67,			!AS ! Wing aspect ratio
   TR= 0.19,  				!AS ! Wing taper ratio
   SWEEP= 31.0,				!AS ! Wing c/4 sweep
