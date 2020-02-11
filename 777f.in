@@ -36,7 +36,7 @@ ASDL Notional 300pax
   DNAC= 10.5,  			!AS ! Engine nacelle diameter
   NPF= 30,       !ER  ! Number of 1st class pax
   NPB= 0,        !ER  ! Number of business class pax
-  NPT= 100,      !ER  ! Number of economy class pax
+  NPT= 158,      !ER  ! Number of economy class pax
   NSTU= 8,       !ER  ! Number of flight attendants
   NFLCR= 2,   			!ER !AS ! Number of flight crew
   MLDWT= 1,
