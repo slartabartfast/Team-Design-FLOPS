@@ -78,7 +78,7 @@ ASDL Notional 300pax
   TCA= 0.109,				! Wing average thickness to chord
   VCMN= 0.84,				!AS cruising ! Design mach (usually maximum)
   CH= 35000.0,  			!AS ! Design cruise altitude
-  TWR= 0.2878, 				!AS Thrust to weight ratio
+  TWR= 0.2804, 				!AS Thrust to weight ratio
   SW= 4604.8,				!AS ! Wing area (can replace with WSR, which is wing loading)
   $END
 
