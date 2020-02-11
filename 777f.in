@@ -134,7 +134,7 @@ ASDL Notional 300pax
   NCRHOL =8.0,
   IATA = 0.0,
   FCDI = 1.00,				! Multiplier on induced drag
-  FCDO = 1.02,				!ER ! Multiplier on parasite drag
+  FCDO = 1.00,				!ER ! Multiplier on parasite drag
   FCDSUB = 1.0,			!ER ! Multiplier on all subsonic drag
   FACT = 1,				! Multiplier on all fuel flow values
   OWFACT = 1,
