@@ -51,8 +51,8 @@ ASDL Notional 300pax
   FRLGN= 1.19,				! Nose gear weight multiplier
   FRLGM= 1.19,				! Main gear weight multiplier
   FRNA = 0.0,				! Nacelle weight multiplier
-  WTHR= 0.0,
-  WPMSC= 0.0,
+  WTHR= 1.0,    !ER
+  WPMSC= 1.0,   !ER
   WFSYS = 1.19,				! Fuel system weight multiplier
   FRSC=1.19,				! Surface controls weight multiplier
   WIN=1.19,				! Instruments weight multiplier
