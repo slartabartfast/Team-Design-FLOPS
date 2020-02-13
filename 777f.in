@@ -35,14 +35,14 @@ ASDL Notional 300pax
   XNAC= 23.95,				 ! Engine nacelle length
   DNAC= 13,  			!AS ! Engine nacelle diameter
   NPF= 0,       !ER  ! Number of 1st class pax
-  NPB= 0,        !ER  ! Number of business class pax
-  NPT= 38,      !ER  ! Number of economy class pax
+  NPB= 50,        !ER  ! Number of business class pax
+  NPT= 300,      !ER  ! Number of economy class pax
   NSTU= 8,       !ER  ! Number of flight attendants
   NFLCR= 2,   			!ER !AS ! Number of flight crew
   MLDWT= 1,
   CARGOF= 0.0,			!ER ! Weight of cargo carried
   WPPASS= 200,  !ER ! Weight per passenger
-  BPP= 29.2,      !ER ! Baggage weight per passenger
+  BPP= 46.1,      !ER ! Baggage weight per passenger
   CARGF= 0.0,				! Fuselage floor factor for military transport (set to 1 for mil)
   FRWI= 1.19,				!ER ! Wing weight multiplier
   FRHT= 1.19,				!ER ! Horizontal tail weight multiplier
