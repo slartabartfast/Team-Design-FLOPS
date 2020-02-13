@@ -136,7 +136,7 @@ ASDL Notional 300pax
   FCDI = 1.00,				! Multiplier on induced drag
   FCDO = 1.00,				!ER ! Multiplier on parasite drag
   FCDSUB = .92,			!ER ! Multiplier on all subsonic drag
-  FACT = 1,				! Multiplier on all fuel flow values
+  FACT = .99,				! Multiplier on all fuel flow values
   OWFACT = 1,
   DTC = 0,
   ISTPCR = 1,				! Step cruise switch (turn off for manual mission profile)
