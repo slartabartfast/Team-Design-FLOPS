@@ -14,7 +14,7 @@ ASDL Notional 300pax
   DIH= 7.0,                   !LD       	! Wing dihedral angle
   NETAW=3,
   ETAW= 0.0, 0.22, 1.0, 			!AS ! Wing section break locations divided by halfspan
-  XL= 239.75,				!AS !LD ! Fuselage Length
+  XL= 242.33,				!ER AS !LD ! Fuselage Length
   TOC= 0.12, 0.12, 0.12,		! Thickness to chord at each wing section
   WF= 20.333,				!AS !LD ! Fuselage width
   CHD= 0.36199, 0.23529, 0.10860,	! Chord divided by halfspan at each wing section
@@ -68,18 +68,18 @@ ASDL Notional 300pax
   $END
 
  $CONFIN
-  DESRNG= 8250,			!ER  !AS ! Design range (nm)
+  DESRNG= 7880,			!ER  !AS ! Design range (nm)
   OFG= 1.,
   OFF= 0.,
-  GW= 662000.0,		!LD		! Gross weight guess
-  AR= 8.67,			!AS ! Wing aspect ratio
+  GW= 775000,		! ER!LD		! Gross weight guess
+  AR= 9.04,			!ER !AS ! Wing aspect ratio
   TR= 0.19,  				!AS ! Wing taper ratio
   SWEEP= 31.0,				!AS ! Wing c/4 sweep
   TCA= 0.109,				! Wing average thickness to chord
   VCMN= 0.84,				!AS cruising ! Design mach (usually maximum)
   CH= 35000.0,  			!AS ! Design cruise altitude
   !TWR= 0.29485, 				!AS Thrust to weight ratio
-  SW= 4604.8,				!AS ! Wing area (can replace with WSR, which is wing loading)
+  SW= 4702,				!AS ! Wing area (can replace with WSR, which is wing loading)
   $END
 
  $AERIN
@@ -121,7 +121,7 @@ ASDL Notional 300pax
   RCIN = 300.0,
   NCRUSE = 8,				! Set up cruise profiles used in step cruise
   CRMACH = 0.84, 0.84, 0.84, 0.84, 0.84,0.84,0.84,0.6,
-  CRALT = 31000.0,35000.0,39000.0,40000.0,40500.0,41000.0,18000,1500,
+  CRALT = 33000.0,35000.0,37000.0,39000.0,41000.0,41000.0,18000,1500,  !ER
   IOC = 2, 2, 2, 2, 2, 2, 3, 4,
   IVS = 1,
   DEAMIN = 1500.0,
@@ -168,7 +168,7 @@ END
 !END
 
  $TOLIN				! Detailed takeoff and landing settings
-  SWREF = 4605,
+  SWREF = 4702,
   TDSINK = 5,
   APRHGT = 3000.,
   DTCT = 30,
