@@ -44,12 +44,12 @@ ASDL Notional 300pax
   WPPASS= 200,  !ER ! Weight per passenger
   BPP= 46.1,      !ER ! Baggage weight per passenger
   CARGF= 0.0,				! Fuselage floor factor for military transport (set to 1 for mil)
-  FRWI= 1.12,				!ER ! Wing weight multiplier
-  FRHT= 1.12,				!ER ! Horizontal tail weight multiplier
-  FRVT= 1.12,				!ER ! Vertical tail weight multiplier
-  FRFU= 1.12,				!ER ! Fuselage weight multiplier
-  FRLGN= 1.12,				! Nose gear weight multiplier
-  FRLGM= 1.12,				! Main gear weight multiplier
+  FRWI= 1.122,				!ER ! Wing weight multiplier
+  FRHT= 1.122,				!ER ! Horizontal tail weight multiplier
+  FRVT= 1.122,				!ER ! Vertical tail weight multiplier
+  FRFU= 1.122,				!ER ! Fuselage weight multiplier
+  FRLGN= 1.122,				! Nose gear weight multiplier
+  FRLGM= 1.122,				! Main gear weight multiplier
   FRNA = 0.0,				! Nacelle weight multiplier
   WTHR= 1.0,    !ER
   WPMSC= 1.0,   !ER
@@ -135,7 +135,7 @@ ASDL Notional 300pax
   IATA = 0.0,
   FCDI = 1.00,				! Multiplier on induced drag
   FCDO = 1.00,				!ER ! Multiplier on parasite drag
-  FCDSUB = .915,			!ER ! Multiplier on all subsonic drag
+  FCDSUB = .910,			!ER ! Multiplier on all subsonic drag
   FACT = 1,				! Multiplier on all fuel flow values
   OWFACT = 1,
   DTC = 0,
