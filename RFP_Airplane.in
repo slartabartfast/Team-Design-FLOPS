@@ -74,14 +74,14 @@ ASDL Notional 300pax
   OFG= 1.,
   OFF= 0.,
   GW= 450000,		! ER!LD		! Gross weight guess
-  AR= 9.04,			!ER !AS ! Wing aspect ratio
+  AR= 10.0,			!ER !AS ! Wing aspect ratio
   TR= 0.19,  				!AS ! Wing taper ratio
   SWEEP= 31.0,				!AS ! Wing c/4 sweep
   TCA= 0.109,				! Wing average thickness to chord
   VCMN= 0.84,				!AS cruising ! Design mach (usually maximum)
   CH= 35000.0,  			!AS ! Design cruise altitude
   TWR= 0.2968, 				!AS Thrust to weight ratio
-  SW= 4702,				!AS ! Wing area (can replace with WSR, which is wing loading)
+  SW= 4000,				!AS ! Wing area (can replace with WSR, which is wing loading)
   $END
 
  $AERIN
