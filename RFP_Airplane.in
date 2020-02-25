@@ -30,19 +30,19 @@ ASDL Notional 300pax
   TRVT= 0.33,				!LD ! Vertical tail taper ratio
   TCVT= 0.107,   			! Vertical tail thickness to chord
   NEW= 2,				!LD ! Number of wing mounted engines
-  THRSO= 115300,			!ER !AS ! Thrust of each engine (overrided by TWR)
-  WENG= 19316,			!AS ! Weight of each engine
-  XNAC= 23.95,				 ! Engine nacelle length
-  DNAC= 13,  			!AS ! Engine nacelle diameter
+  THRSO= 67400,			!ER !AS ! Thrust of each engine (overrided by TWR)
+  WENG= 12822,			!AS ! Weight of each engine
+  XNAC= 16.16667,				 ! Engine nacelle length
+  DNAC= 11.5,  			!AS ! Engine nacelle diameter
   NPF= 0,       !ER  ! Number of 1st class pax
   NPB= 50,        !ER  ! Number of business class pax
-  NPT= 300,      !ER  ! Number of economy class pax
+  NPT= 350,      !ER  ! Number of economy class pax
   NSTU= 8,       !ER  ! Number of flight attendants
   NFLCR= 2,   			!ER !AS ! Number of flight crew
   MLDWT= 1,
   CARGOF= 0.0,			!ER ! Weight of cargo carried
   WPPASS= 200,  !ER ! Weight per passenger
-  BPP= 46.1,      !ER ! Baggage weight per passenger
+  BPP= 30,      !ER ! Baggage weight per passenger
   CARGF= 0.0,				! Fuselage floor factor for military transport (set to 1 for mil)
   FRWI= 1.122,				!ER ! Wing weight multiplier
   FRHT= 1.122,				!ER ! Horizontal tail weight multiplier
@@ -64,21 +64,21 @@ ASDL Notional 300pax
   WAI=1.0,				! Anti-ice weight multiplier
   WCON=1.0,				! Cargo container weight multiplier
   FULWMX=23.,				! Wing fuel capacity multiplier (23 is default)
-  FULFMX = 113163,			!ER  ! Additional fuel capacity in fuselage
+  FULFMX = 0,			!ER  ! Additional fuel capacity in fuselage
   $END
 
  $CONFIN
-  DESRNG= 7880,			!ER  !AS ! Design range (nm)
+  DESRNG= 3500,			!ER  !AS ! Design range (nm)
   OFG= 1.,
   OFF= 0.,
-  GW= 775000,		! ER!LD		! Gross weight guess
+  GW= 450000,		! ER!LD		! Gross weight guess
   AR= 9.04,			!ER !AS ! Wing aspect ratio
   TR= 0.19,  				!AS ! Wing taper ratio
   SWEEP= 31.0,				!AS ! Wing c/4 sweep
   TCA= 0.109,				! Wing average thickness to chord
   VCMN= 0.84,				!AS cruising ! Design mach (usually maximum)
   CH= 35000.0,  			!AS ! Design cruise altitude
-  !TWR= 0.29485, 				!AS Thrust to weight ratio
+  TWR= 0.2968, 				!AS Thrust to weight ratio
   SW= 4702,				!AS ! Wing area (can replace with WSR, which is wing loading)
   $END
 
@@ -93,7 +93,7 @@ ASDL Notional 300pax
 
  $ENGDIN
   IGENEN= -1,
-  EIFILE= 'GE90-115B.deck',  		! Engine deck file name
+  EIFILE= 'GEnx-1b.deck',  		! Engine deck file name
   IDLE= 1,
   MAXCR= 1,
   NOX= 1,
