@@ -74,7 +74,7 @@ ASDL Notional 300pax
   OFG= 1.,
   OFF= 0.,
   GW= 450000,		! ER!LD		! Gross weight guess
-  AR= 10.0,			!ER !AS ! Wing aspect ratio
+  AR= 10.6,			!ER !AS ! Wing aspect ratio
   TR= 0.19,  				!AS ! Wing taper ratio
   SWEEP= 31.0,				!AS ! Wing c/4 sweep
   TCA= 0.109,				! Wing average thickness to chord
