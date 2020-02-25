@@ -26,7 +26,7 @@ ASDL Notional 300pax
   TRHT= 0.35,				!LD ! Horizontal tail taper ratio
   TCHT= 0.104,  			! Horizontal tail thickness to chord
   !SVT=683.35,				!LD ! Vertical tail area
-  VTVC = .170821 !This value comes from 777-300ER
+  VTVC = .170821, !This value comes from 777-300ER
   SWPVT= 40.0,				!LD ! Vertical tail sweep at c/4
   ARVT= 1.80,				!LD ! Vertical tail aspect ratio
   TRVT= 0.33,				!LD ! Vertical tail taper ratio
