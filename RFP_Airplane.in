@@ -81,7 +81,7 @@ ASDL Notional 300pax
   VCMN= 0.84,				!AS cruising ! Design mach (usually maximum)
   CH= 35000.0,  			!AS ! Design cruise altitude
   TWR= 0.2968, 				!AS Thrust to weight ratio
-  SW= 4000,				!AS ! Wing area (can replace with WSR, which is wing loading)
+  SW= 3200,				!AS ! Wing area (can replace with WSR, which is wing loading)
   $END
 
  $AERIN
@@ -170,7 +170,7 @@ END
 !END
 
  $TOLIN				! Detailed takeoff and landing settings
-  SWREF = 4702,
+  SWREF = 3200,
   TDSINK = 5,
   APRHGT = 3000.,
   DTCT = 30,
