@@ -80,9 +80,9 @@ ASDL Notional 300pax
   TCA= 0.109,				! Wing average thickness to chord
   VCMN= 0.84,				!AS cruising ! Design mach (usually maximum)
   CH= 35000.0,  			!AS ! Design cruise altitude
-  TWR= 0.296, 				!AS Thrust to weight ratio - 777-300ER has 0.2968
+  TWR= 0.290, 				!AS Thrust to weight ratio - 777-300ER has 0.2968
   !SW= 3200,				!AS ! Wing area (can replace with WSR, which is wing loading)
-  WSR= 150,     !ER Wing loading
+  WSR= 145,     !ER Wing loading
   HTVC= 2.417633, !This value comes from 777-300ER
   VTVC= .170821, !This value comes from 777-300ER
   $END
