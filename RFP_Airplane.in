@@ -4,7 +4,7 @@ ASDL Notional 300pax
   IOPT= 1,
   IANAL= 3,
   ICOST= 0,
-  ITAKOF= 0,				! Set to 1 to turn on detailed takeoff (requires $TOLIN)
+  ITAKOF= 1,				! Set to 1 to turn on detailed takeoff (requires $TOLIN)
   ILAND= 0,				! Set to 1 to turn on detailed landing (requires $TOLIN)
   $END
 
@@ -19,14 +19,14 @@ ASDL Notional 300pax
   WF= 20.333,				!AS !LD ! Fuselage width
   CHD= 0.36199, 0.23529, 0.10860,	! Chord divided by halfspan at each wing section
   DF= 20.333,  				!AS !LD ! Fuselage height
-  SHT= 750,				!LD ! Horizontal tail area
-  !HTVC= 2.417633, !This value comes from 777-300ER
+  !SHT= 750,				!LD ! Horizontal tail area
+  
   SWPHT= 37.5,				!LD ! Horizontal tail sweep at c/4
   ARHT= 4.5,				!LD ! Horizontal tail aspect ratio
   TRHT= 0.35,				!LD ! Horizontal tail taper ratio
   TCHT= 0.104,  			! Horizontal tail thickness to chord
-  SVT= 500,				!LD ! Vertical tail area
-  !VTVC= .170821, !This value comes from 777-300ER
+  !SVT= 500,				!LD ! Vertical tail area
+  
   SWPVT= 40.0,				!LD ! Vertical tail sweep at c/4
   ARVT= 1.80,				!LD ! Vertical tail aspect ratio
   TRVT= 0.33,				!LD ! Vertical tail taper ratio
@@ -74,14 +74,17 @@ ASDL Notional 300pax
   OFG= 1.,
   OFF= 0.,
   GW= 450000,		! ER!LD		! Gross weight guess
-  AR= 10.6,			!ER !AS ! Wing aspect ratio
+  AR= 10.0,			!ER !AS ! Wing aspect ratio
   TR= 0.19,  				!AS ! Wing taper ratio
   SWEEP= 31.0,				!AS ! Wing c/4 sweep
   TCA= 0.109,				! Wing average thickness to chord
   VCMN= 0.84,				!AS cruising ! Design mach (usually maximum)
   CH= 35000.0,  			!AS ! Design cruise altitude
-  TWR= 0.2968, 				!AS Thrust to weight ratio
-  SW= 3200,				!AS ! Wing area (can replace with WSR, which is wing loading)
+  TWR= 0.290, 				!AS Thrust to weight ratio - 777-300ER has 0.2968
+  !SW= 3200,				!AS ! Wing area (can replace with WSR, which is wing loading)
+  WSR= 145,     !ER Wing loading
+  HTVC= 2.417633, !This value comes from 777-300ER
+  VTVC= .170821, !This value comes from 777-300ER
   $END
 
  $AERIN
@@ -122,7 +125,7 @@ ASDL Notional 300pax
   FWF = -1, -1, -1, -1, -1, -1, -1,
   RCIN = 300.0,
   NCRUSE = 8,				! Set up cruise profiles used in step cruise
-  CRMACH = 0.84, 0.84, 0.84, 0.84, 0.84,0.84,0.84,0.6,
+  CRMACH = 0.84, 0.84, 0.84, 0.84, 0.84,0.84,0.7,0.6,   !ER
   CRALT = 33000.0,35000.0,37000.0,39000.0,41000.0,41000.0,18000,1500,  !ER
   IOC = 2, 2, 2, 2, 2, 2, 3, 4,
   IVS = 1,
