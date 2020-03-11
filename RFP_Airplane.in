@@ -153,24 +153,25 @@ CRUISE   1
 DESCENT
 END
 
-!$RERUN				! Currently commented out, but rerun will run an alternate mission
-!  DESRNG = 2800.,		! with the sized empty weight. In this case it is setup for the
-!  MYWTS = 1,			! 300k lbs max payload to fly 2800 nm. You will need to adjust
-!  NOPRO = 0,			! the range such that the alternate mission TOGW is less than or
-!  PAYLOD = 300000, 		! equal to the sized vehicle TOGW.
-!  FUEMAX = 0,
-!  RAMPWT = 0,
-!  TWR = 0,
-!$END
+$RERUN				! Currently commented out, but rerun will run an alternate mission
+  DESRNG = 700.,		! with the sized empty weight. In this case it is setup for the
+  MYWTS = 1,			! 300k lbs max payload to fly 2800 nm. You will need to adjust
+  NOPRO = 0,			! the range such that the alternate mission TOGW is less than or
+  !PAYLOD = 300000, 		! equal to the sized vehicle TOGW.
+  FUEMAX = 0,
+  RAMPWT = 0,
+  WSR = 0,
+  TWR = 0,
+$END
 
-!$MISSIN
-!  IRW = 1,
-!$END
-!START
-!CLIMB    2
-!CRUISE   1
-!DESCENT
-!END
+$MISSIN
+  IRW = 1,
+$END
+START
+CLIMB    2
+CRUISE   1
+DESCENT
+END
 
  $TOLIN				! Detailed takeoff and landing settings
   SWREF = 3200,
