@@ -146,27 +146,25 @@ ASDL Notional 300pax
   DTC = 0,
   ISTPCR = 1,				! Step cruise switch (turn off for manual mission profile)
   ICLN = 6,
- $END
+  $END
 START
 CLIMB    2
 CRUISE   1
 DESCENT
 END
 
-$RERUN				! Currently commented out, but rerun will run an alternate mission
-  DESRNG = 700.,		! with the sized empty weight. In this case it is setup for the
+ $RERUN				! Currently commented out, but rerun will run an alternate mission
+  DESRNG = 700,			! with the sized empty weight. In this case it is setup for the
   MYWTS = 1,			! 300k lbs max payload to fly 2800 nm. You will need to adjust
   NOPRO = 0,			! the range such that the alternate mission TOGW is less than or
-  !PAYLOD = 300000, 		! equal to the sized vehicle TOGW.
-  FUEMAX = 0,
-  RAMPWT = 0,
-  WSR = 0,
-  TWR = 0,
-$END
+  PAYLOD = 92000, 		! equal to the sized vehicle TOGW.
+  WSR = 0.,
+  TWR = 0.,
+  $END
 
-$MISSIN
+ $MISSIN
   IRW = 1,
-$END
+  $END
 START
 CLIMB    2
 CRUISE   1
