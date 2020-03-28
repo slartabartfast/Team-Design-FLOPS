@@ -4,7 +4,7 @@ ASDL Notional 300pax
   IOPT= 1,
   IANAL= 3,
   ICOST= 0,
-  ITAKOF= 1,				! Set to 1 to turn on detailed takeoff (requires $TOLIN)
+  ITAKOF= 0,				! Set to 1 to turn on detailed takeoff (requires $TOLIN)
   ILAND= 0,				! Set to 1 to turn on detailed landing (requires $TOLIN)
   $END
 
