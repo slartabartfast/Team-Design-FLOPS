@@ -172,7 +172,7 @@ DESCENT
 END
 
  $TOLIN				! Detailed takeoff and landing settings
-  SWREF = 3200,
+  !SWREF = 3200,
   TDSINK = 5,
   APRHGT = 3000.,
   DTCT = 30,
