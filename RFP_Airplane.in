@@ -55,16 +55,16 @@ ASDL Notional 300pax
   FRNA = 0.0,				! Nacelle weight multiplier
   WTHR= 1.0,    !ER
   WPMSC= 1.0,   !ER
-  WFSYS = 1.0,				! Fuel system weight multiplier
-  FRSC=1.0,				! Surface controls weight multiplier
-  WIN=1.0,				! Instruments weight multiplier
-  WHYD=1.0,				! Hydraulic weight multiplier
-  WELEC=1.0,				! Electrical weight multiplier
-  WAVONC=1.0,				! Avionics weight multiplier
-  WFURN=1.0,				! Furnishings weight multiplier
-  WAC=1.0,				! Air conditioning weight multiplier
-  WAI=1.0,				! Anti-ice weight multiplier
-  WCON=1.0,				! Cargo container weight multiplier
+  WFSYS = 0.95,				! Fuel system weight multiplier
+  FRSC= 0.95,				! Surface controls weight multiplier
+  WIN= 0.95,				! Instruments weight multiplier
+  WHYD= 0.95,				! Hydraulic weight multiplier
+  WELEC= 0.95,				! Electrical weight multiplier
+  WAVONC= 0.95,				! Avionics weight multiplier
+  WFURN= 0.95,				! Furnishings weight multiplier
+  WAC= 0.95,				! Air conditioning weight multiplier
+  WAI= 0.95,				! Anti-ice weight multiplier
+  WCON= 0.95,				! Cargo container weight multiplier
   FULWMX=23.,				! Wing fuel capacity multiplier (23 is default)
   FULFMX = 0,			!ER  ! Additional fuel capacity in fuselage
   $END
