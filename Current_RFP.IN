@@ -55,7 +55,7 @@ RFP Run_3_14
   FRSC=0.95,        ! Surface controls weight multiplier
   WIN=0.95,        ! Instruments weight multiplier
   WHYD=0.8,        ! Hydraulic weight multiplier
-  WELEC=1.0,        ! Electrical weight multiplier
+  WELEC=1.1,        ! Electrical weight multiplier
   WAVONC=0.95,        ! Avionics weight multiplier
   WFURN=0.841,        ! Furnishings weight multiplier
   WAC=0.785,        ! Air conditioning weight multiplier
