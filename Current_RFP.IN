@@ -57,7 +57,7 @@ RFP Run_3_14
   WHYD=0.8,        ! Hydraulic weight multiplier
   WELEC=1.1,        ! Electrical weight multiplier
   WAVONC=0.95,        ! Avionics weight multiplier
-  WFURN=0.841,        ! Furnishings weight multiplier
+  WFURN=0.92859,        ! Furnishings weight multiplier
   WAC=0.785,        ! Air conditioning weight multiplier
   WAI=0.95,        ! Anti-ice weight multiplier
   WCON=0.95,        ! Cargo container weight multiplier
