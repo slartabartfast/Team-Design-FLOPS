@@ -171,7 +171,7 @@ END
   !SWREF = 3200,
   TDSINK = 5,
   APRHGT = 3000.,
-  DTCT = 30,
+  DTCT = 15,
   DELDFL = 5.,
   DELHAP = 10.,
   DVAPP = 0.,
