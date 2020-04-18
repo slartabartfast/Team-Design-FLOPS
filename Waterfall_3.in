@@ -1,0 +1,218 @@
+ASDL Notional 300pax
+ $OPTION
+  MPRINT= 1,
+  IOPT= 1,
+  IANAL= 3,
+  ICOST= 0,
+  ITAKOF= 0,				! Set to 1 to turn on detailed takeoff (requires $TOLIN)
+  ILAND= 0,				! Set to 1 to turn on detailed landing (requires $TOLIN)
+  $END
+
+ $WTIN
+  MYWTS= 0,
+  VMMO= 0.9,
+  DIH= 7.0,                   !LD       	! Wing dihedral angle
+  NETAW=3,
+  ETAW= 0.0, 0.22, 1.0, 			!AS ! Wing section break locations divided by halfspan
+  XL= 242.33,				!ER AS !LD ! Fuselage Length
+  TOC= 0.12, 0.12, 0.12,		! Thickness to chord at each wing section
+  WF= 20.333,				!AS !LD ! Fuselage width
+  CHD= 0.36199, 0.23529, 0.10860,	! Chord divided by halfspan at each wing section
+  DF= 20.333,  				!AS !LD ! Fuselage height
+  SHT= 1069.85,				!LD ! Horizontal tail area
+  SWPHT= 37.5,				!LD ! Horizontal tail sweep at c/4
+  ARHT= 4.5,				!LD ! Horizontal tail aspect ratio
+  TRHT= 0.35,				!LD ! Horizontal tail taper ratio
+  TCHT= 0.104,  			! Horizontal tail thickness to chord
+  SVT=683.35,				!LD ! Vertical tail area
+  SWPVT= 40.0,				!LD ! Vertical tail sweep at c/4
+  ARVT= 1.80,				!LD ! Vertical tail aspect ratio
+  TRVT= 0.33,				!LD ! Vertical tail taper ratio
+  TCVT= 0.107,   			! Vertical tail thickness to chord
+  NEW= 2,				!LD ! Number of wing mounted engines
+  THRSO= 67400,				!ER !AS ! Thrust of each engine (overrided by TWR)
+  WENG= 12822,				!AS ! Weight of each engine
+  XNAC= 16.16667,				! Engine nacelle length
+  DNAC= 11.5,  				!AS ! Engine nacelle diameter
+  NPF= 0,      	 			!ER  ! Number of 1st class pax
+  NPB= 50,        			!ER  ! Number of business class pax
+  NPT= 350,      	!~		!ER  ! Number of economy class pax
+  NSTU= 8,       			!ER  ! Number of flight attendants
+  NFLCR= 2,   				!ER !AS ! Number of flight crew
+  MLDWT= 1,
+  CARGOF= 0.0,				!ER ! Weight of cargo carried
+  WPPASS= 200,  	!~		!ER ! Weight per passenger
+  BPP= 30,      	!~		!ER ! Baggage weight per passenger
+  CARGF= 0.0,				! Fuselage floor factor for military transport (set to 1 for mil)
+  FRWI= 1.122,				!ER ! Wing weight multiplier
+  FRHT= 1.122,				!ER ! Horizontal tail weight multiplier
+  FRVT= 1.122,				!ER ! Vertical tail weight multiplier
+  FRFU= 1.122,				!ER ! Fuselage weight multiplier
+  FRLGN= 1.122,				! Nose gear weight multiplier
+  FRLGM= 1.122,				! Main gear weight multiplier
+  FRNA = 0.0,				! Nacelle weight multiplier
+  WTHR= 1.0,    			!ER
+  WPMSC= 1.0,   			!ER
+  WFSYS = 1.0,				! Fuel system weight multiplier
+  FRSC=1.0,				! Surface controls weight multiplier
+  WIN=1.0,				! Instruments weight multiplier
+  WHYD=1.0,				! Hydraulic weight multiplier
+  WELEC=1.0,				! Electrical weight multiplier
+  WAVONC=1.0,				! Avionics weight multiplier
+  WFURN=1.0,				! Furnishings weight multiplier
+  WAC=1.0,				! Air conditioning weight multiplier
+  WAI=1.0,				! Anti-ice weight multiplier
+  WCON=1.0,				! Cargo container weight multiplier
+  FULWMX=23.,				! Wing fuel capacity multiplier (23 is default)
+  FULFMX = 0,		!~		!ER  ! Additional fuel capacity in fuselage
+  $END
+
+ $CONFIN
+  DESRNG= 3500,		!~		!ER  !AS ! Design range (nm)
+  OFG= 1.,
+  OFF= 0.,
+  GW= 500000,				!ER!LD	! Gross weight guess
+  AR= 9.04,				!ER !AS ! Wing aspect ratio
+  TR= 0.19,  				!AS ! Wing taper ratio
+  SWEEP= 31.0,				!AS ! Wing c/4 sweep
+  TCA= 0.109,				! Wing average thickness to chord
+  VCMN= 0.84,				!AS cruising ! Design mach (usually maximum)
+  CH= 35000.0,  			!AS ! Design cruise altitude
+  !TWR= 0.29485, 				!AS Thrust to weight ratio
+  SW= 4702,				!AS ! Wing area (can replace with WSR, which is wing loading)
+  $END
+
+ $AERIN
+  ITPAER= 1,
+  CAM= 1.75,
+  AITEK= 2.00,
+  E= 1.0,
+  CLTOM= 2.39,				! CLmax in takeoff
+  CLLDM= 3.09,				! CLmax in landing
+  $END
+
+ $ENGDIN
+  IGENEN= -1,
+  EIFILE= 'GEnx-1B.deck',  		! Engine deck file name
+  IDLE= 1,
+  MAXCR= 1,
+  NOX= 1,
+  $END
+
+ $MISSIN
+  MSUMPT = 1,
+  NPCON = 0,
+  IFLAG = 2,
+  IRW = 1,
+  ITTFF = 1,
+  TAKOTM = 2.0,				! Takeoff time (min)
+  TAXOTM = 14.0,			! Taxi out time (min)
+  HOLDTM = 30.0,			! Hold time (min)
+  APPRTM = 4.0,				! Approach time (min)
+  TAXITM = 5.0,				! Taxi back time (min)
+  NCLIMB = 7,
+  CLAMIN = 0.0,0000.0,10000.0,10000.0,10000.0,10000.0,0.0,
+  CLAMAX = 10000.0,31000.0,35000.0,39000.0,40000.0,41000.0,18000.0,
+  CLMMIN = 0.3,0.3,0.845,0.845,0.845,0.845,0.3,
+  NCRCL = 1,2,3,4,5,6,7,
+  MAXCL=1,1,1,1,1,1,1,
+  IPPCL=5,5,5,5,5,5,5,
+  FWF = -1, -1, -1, -1, -1, -1, -1,
+  RCIN = 300.0,
+  NCRUSE = 8,				! Set up cruise profiles used in step cruise
+  CRMACH = 0.84, 0.84, 0.84, 0.84, 0.84,0.84,0.84,0.6,
+  CRALT = 33000.0,35000.0,37000.0,39000.0,41000.0,41000.0,18000,1500,  !ER
+  IOC = 2, 2, 2, 2, 2, 2, 3, 4,
+  IVS = 1,
+  DEAMIN = 1500.0,
+  IRS = 1,
+  ALTRAN = 200.,			! Alternate airport range (nm)
+  TIMMAP = 2.0,				! Missed approach time
+  RESTRP = 0.05,
+  NCLRES = 7,
+  NCRRES = 7,
+  NCRHOL =8.0,
+  IATA = 0.0,
+  FCDI = 1.00,				! Multiplier on induced drag
+  FCDO = 1.00,				!ER ! Multiplier on parasite drag
+  FCDSUB = .910,			!ER ! Multiplier on all subsonic drag
+  FACT = 1,				! Multiplier on all fuel flow values
+  OWFACT = 1,
+  DTC = 0,
+  ISTPCR = 1,				! Step cruise switch (turn off for manual mission profile)
+  ICLN = 6,
+ $END
+START
+CLIMB    2
+CRUISE   1
+DESCENT
+END
+
+!$RERUN				! Currently commented out, but rerun will run an alternate mission
+!  DESRNG = 2800.,		! with the sized empty weight. In this case it is setup for the
+!  MYWTS = 1,			! 300k lbs max payload to fly 2800 nm. You will need to adjust
+!  NOPRO = 0,			! the range such that the alternate mission TOGW is less than or
+!  PAYLOD = 300000, 		! equal to the sized vehicle TOGW.
+!  FUEMAX = 0,
+!  RAMPWT = 0,
+!  TWR = 0,
+!$END
+
+!$MISSIN
+!  IRW = 1,
+!$END
+!START
+!CLIMB    2
+!CRUISE   1
+!DESCENT
+!END
+
+ $TOLIN				! Detailed takeoff and landing settings
+  SWREF = 4702,
+  TDSINK = 5,
+  APRHGT = 3000.,
+  DTCT = 30,
+  DELDFL = 5.,
+  DELHAP = 10.,
+  DVAPP = 0.,
+  INTHLD = 2,
+  INTHRV = 2,
+  RVFACT = 0,
+  ITXOUT = 1,
+  THFACT = 1.0000,
+  APA = 0,
+  WHGT = 10.243,
+  ALPRUN = 0,
+  TINC = 0,
+  BRAKMU = 0.4,
+  VANGL = 2.5,
+  CDGEAR = 0.017,
+  CDEOUT = 0.005,
+  CLSPOL = -0.5,
+  CDSPOL = 0.05,
+  INCGEF = 1,
+  ITIME = 1,
+  ALMXTO = 13,
+  ALPTO= 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+  CLTO= 0.422371,0.534588,0.647208,0.759824,0.872135,0.984006,1.09553,1.20703,1.31881,1.43038,1.53907,1.63868,1.72019,1.77523,1.7995,1.79244,
+  CDTO= 0.0306256,0.0353231,0.0409853,0.0476661,0.0554132,0.0642668,0.074256,0.0853928,0.0976531,0.110925,0.124871,0.138606,0.150389,0.159338,0.171718,0.19646,
+  CDMTO = 0.0647,
+  FTOCD = 1.0,
+  INTHTO = 2,
+  ALPROT = 13,
+  TIGEAR = 9,
+  IBAL= 1,
+  PILOTT = 0.85,
+  ISPOL = 1,
+  ALPLD= 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+  CLLD= 0.513118,0.616873,0.72307,0.831308,0.941107,1.05191,1.16313,1.27417,1.38454,1.4941,1.60323,1.71272,1.82268,1.93062,2.03056,2.11494,
+  CDLD= 0.0789426,0.0849366,0.0916842,0.099259,0.107735,0.117181,0.12766,0.13922,0.151893,0.165684,0.180571,0.196485,0.213289,0.230696,0.248071,0.26397,
+  CDMLD = 0.16649,
+  VROTAT = 1.05,
+  ALMXLD = 25.0,
+  VANGLD = 2.5,
+  TISPOL = 2.0,
+  TICUT = 3.0,
+  TIBRAK = 4.0,
+  ACCLIM = 16.0,
+ $END

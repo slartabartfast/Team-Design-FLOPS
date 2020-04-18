@@ -1,0 +1,13 @@
+WATERFALL INFO
+
+Changes from "Waterfall 1" to "Waterfall 2" marked with the use of !~,
+changes from "Waterfall 2" to "Waterfall 3" marked with the use of !~~, etc.
+
+Change list:
+
+Waterfall 1 - Just the 777-300ER
+Waterfall 2 - Changed range to 3500, pax capacity, baggage weight to match RFP mission. 
+Waterfall 3 - Swap engine deck
+Waterfall 4 - Change component weight multipliers
+Waterfall 5 - Change subsystem weight multipliers
+Waterfall 6 - Change Geometry
